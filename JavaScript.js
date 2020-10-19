@@ -4,20 +4,20 @@ $(function(){
        $('.loader').fadeOut('slow');
        $('.contenido').fadeIn('slow')
        $(".navbarPokemon").animate({width: '100%'},"slow");
-    }, 1000);
+    }, 7000);
     setTimeout(() => {
         $(".content-principal").fadeIn('slow');
         $(".spinner").show('slow');
-    }, 1000);
+    }, 8000);
     setTimeout(() => {
         $(".spinner").hide('fast');
-    }, 1000);
+    }, 11000);
     setTimeout(() => {
         $(".pokemon-card").show('slow');
-    }, 1000);
+    }, 12000);
     setTimeout(() => {
         $("#more-pokemon").show('slow');
-    }, 1000);
+    }, 13000);
 
     //Eventos
     $("#more-pokemon").click(()=>{
